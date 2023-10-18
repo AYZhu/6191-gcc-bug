@@ -1,0 +1,24 @@
+synthDir
+checkDir
+*.bo
+Tb_*
+ALU.bsv
+testout*
+test_*
+
+# Keep provided files
+!test_all
+!test_info.yml
+!test_all_didit.sh
+!test_fastAdd32_target
+
+# Minispec temp directories
+tmp_msc_*
+
+# Always ignore these files.
+*.bsv
+*.html
+*.svg
+*.v
+*.o
+!FeedLFSR.bsv
